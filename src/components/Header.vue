@@ -6,7 +6,7 @@
       <div class="container">
         <div class="server pull-left">
           <span class="glyphicon glyphicon-earphone"></span>888-888-888
-          <span class="glyphicon glyphicon-envelope"></span>liyunkun_11@163.com
+          <span class="glyphicon glyphicon-envelope"></span>hw_1988@qq.com
           <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
         </div>
         <div class="shejiao pull-right">
@@ -93,7 +93,7 @@ export default {
           children: []
         },
         {
-          name: "软件产品",
+          name: "主要产品",
           path: "/software",
           children: [
             {
@@ -111,11 +111,11 @@ export default {
           path: "/service",
           children: []
         },
-        {
-          name: "新闻动态",
-          path: "/newsinformation",
-          children: []
-        },
+        // {
+        //   name: "新闻动态",
+        //   path: "/newsinformation",
+        //   children: []
+        // },
         {
           name: "公司介绍",
           path: "/companyintroduction",

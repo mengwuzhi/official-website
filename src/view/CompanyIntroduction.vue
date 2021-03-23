@@ -1,15 +1,15 @@
 <template>
     <div id="CompanyIntroduction">
-        <div class="banner container-fuild text-center">关于我们</div>
+        <div class="banner container-fuild text-center"></div>
         <div class="container">
             <div class="row CompanyIntroduction-container">
                 <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
                     <img class="img-responsive center-block" src="@/assets/img/about_img.png">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6">
-                    <h3>网站建设文化传播有限公司</h3>
-                    <p class=".text-justify">有家软件公司, 是一家以高科技创意为核心的技术服务公司, 聚集了众多对软件开发和界面设计有独特创意的高端人才, 致力于为企业提供软件开发, 网站建设, 网页设计, IT外包, 手机应用开发, 互联网营销, 微信平台开发等解决方案。</p>
-                    <p class=".text-justify">我们的客户包括集团上市公司, 酒店, IT科技, 教育, 服装, 贸易, 外贸, 时尚, 生物, 工业, 制造等众多行业, 并树立了良好的口碑, 积累了丰富的经验和成功案例. 我们提供权威专业的互联网品牌策划, 并实施高标准的设计方案, 创造真正意义上的品牌网站, 为互联网品牌在互动行销领域创造最大价值而不懈努力!</p>
+                    <h3>合肥中科融道智能科技有限公司</h3>
+                    <p class=".text-justify">合肥中科融道智能科技有限公司成立于2021年1月。以中科院合肥技术创新工程院为依托，将人工智能核心技术与产业融合，通过提供产品和系统解决方案来推动产业的智能升级转型。</p>
+                    <p class=".text-justify">公司以计算机视觉、语音识别为代表的人工智能技术为基础，聚焦能源行业，形成人工智能在电力特定场景的初步应用，逐步实现软、硬件结合的人工智能综合解决方案，推动公司核心技术、软硬件产品与实体经济深度融合，助力共建共治共享的社会治理新格局。</p>
                 </div>
             </div>
         </div>
