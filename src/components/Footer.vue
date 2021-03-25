@@ -6,8 +6,8 @@
 <!--    <p class="title">公司企业网站模板</p>-->
     <p class="address_tel_fax">
       <span>地址：合肥市创新大道与明珠大道交口明珠产业园2栋D区3楼</span>
-      <span>Tel：888-888-888</span>
-      <span>Fax：8888-88888888</span>
+<!--      <span>Tel：888-888-888</span>-->
+<!--      <span>Fax：8888-88888888</span>-->
     </p>
     <p class="email_wx">
       <span>合作邮箱：hw_1988@qq.com</span>

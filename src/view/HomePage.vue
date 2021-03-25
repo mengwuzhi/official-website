@@ -143,28 +143,28 @@ export default {
     return {
       swiperList: [
         {
-          img: require("@/assets/img/banner.png"),
+          img: require("@/assets/img/newBanner.png"),
           path: "",
-          title: '您身边的IT专家1',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '',
+          content: '',
         },
+        // {
+        //   img: require("@/assets/img/banner2.jpg"),
+        //   path: "",
+        //   title: '',
+        //   content: '',
+        // },
+        // {
+        //   img: require("@/assets/img/banner1.png"),
+        //   path: "",
+        //   title: '',
+        //   content: '',
+        // },
         {
-          img: require("@/assets/img/banner2.jpg"),
+          img: require("@/assets/img/newBanner1.png"),
           path: "",
-          title: '您身边的IT专家2',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner1.png"),
-          path: "",
-          title: '您身边的IT专家3',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner2.jpg"),
-          path: "",
-          title: '您身边的IT专家4',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '',
+          content: '',
         }
       ],
       customerList: [

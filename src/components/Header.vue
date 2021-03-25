@@ -5,13 +5,13 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <span class="glyphicon glyphicon-earphone"></span>888-888-888
-          <span class="glyphicon glyphicon-envelope"></span>hw_1988@qq.com
-          <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
+<!--          <span class="glyphicon glyphicon-earphone"></span>888-888-888-->
+<!--          <span class="glyphicon glyphicon-envelope"></span>hw_1988@qq.com-->
+<!--          <span class="glyphicon glyphicon-time"></span>7x24小时为您服务-->
         </div>
         <div class="shejiao pull-right">
-          <span class="glyphicon glyphicon-hand-right"></span>赶快联系我们吧！
-          <span class="glyphicon glyphicon-hand-left"></span>
+<!--          <span class="glyphicon glyphicon-hand-right"></span>赶快联系我们吧！-->
+<!--          <span class="glyphicon glyphicon-hand-left"></span>-->
         </div>
       </div>
     </div>

@@ -63,7 +63,7 @@ export default new Router({
           name: 'newsinformation',
           component: resolve => require(['@/view/NewsInformation'], resolve),
           meta: {
-            title: '新闻动态'
+            title: ''
           }
         }, {
           path: '/companyintroduction',

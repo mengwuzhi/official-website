@@ -35,22 +35,22 @@ export default {
                     id: 'section-1',
                     title: '软件定制开发',
                     eng_title: 'Customize App',
-                    img: require('@/assets/img/service1.jpg')
+                    img: require('@/assets/img/CustomizeApp.png')
                 },{
                     id: 'section-2',
                     title: 'IT外包服务',
                     eng_title: 'Outsourcing',
-                    img: require('@/assets/img/service2.jpg')
+                    img: require('@/assets/img/Outsourcing.png')
                 },{
                     id: 'section-3',
                     title: '人工智能算法',
                     eng_title: 'AI algorithm',
-                    img: require('@/assets/img/service3.jpg')
+                    img: require('@/assets/img/AIalgorithm.png')
                 },{
                     id: 'section-4',
                     title: '智能IoT设备',
-                    eng_title: 'smart IOT device',
-                    img: require('@/assets/img/service4.jpg')
+                    eng_title: 'smart IoT device',
+                    img: require('@/assets/img/smartIoTdevice.png')
                 }
             ]
         }

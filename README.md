@@ -26,6 +26,8 @@
 # nodejs
 # npm
 ```
+## 安装依赖模块
+npm install
 
 ## 启动命令
 npm run dev
