@@ -10,7 +10,7 @@
 <!--      <span>Fax：8888-88888888</span>-->
     </p>
     <p class="email_wx">
-      <span>合作邮箱：hw_1988@qq.com</span>
+      <span>合作邮箱：rongdaoai@qq.com</span>
       <span>微信公众号：rongdaoai</span>
     </p>
     <p class="copy">合肥中科融道智能科技有限公司 &copy; 2021 All Rights Reserved. </p>
