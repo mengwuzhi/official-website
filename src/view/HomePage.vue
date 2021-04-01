@@ -450,6 +450,7 @@ export default {
     new Swiper(".banner-swiper", {
       loop: true, // 循环模式选项
       effect: 'fade',
+      speed:2000,
       //自动播放
       autoplay: {
         delay: 3000,
