@@ -44,12 +44,12 @@ export default {
                 },{
                     id: 'section-3',
                     title: '人工智能算法',
-                    eng_title: 'AI algorithm',
+                    eng_title: 'AI Algorithm',
                     img: require('@/assets/img/AIalgorithm.png')
                 },{
                     id: 'section-4',
                     title: '智能IoT设备',
-                    eng_title: 'smart IoT device',
+                    eng_title: 'Smart IoT Device',
                     img: require('@/assets/img/smartIoTdevice.png')
                 }
             ]
