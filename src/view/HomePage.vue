@@ -1,7 +1,7 @@
 <template>
   <div id="HomePage">
     <!-- 轮播图 -->
-    <div id="swiper" class="container-fuild">
+    <!--<div id="swiper" class="container-fuild">
       <div class="swiper-container banner-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide" v-for="(item,index) in swiperList" :key="index">
@@ -13,236 +13,70 @@
             </div>
           </div>
         </div>
-        <!-- 如果需要分页器 -->
+        &lt;!&ndash; 如果需要分页器 &ndash;&gt;
         <div class="swiper-pagination"></div>
 
-        <!-- 如果需要导航按钮 -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-    </div>
-    <div id="fontShow">
-      <div id="blueLine"></div>
-      <h1>致力于打造高科技民营企业</h1>
-      <h3>COMMITTED TO BUILDING HEIGHT-TECH PRIVATE ENTERPRISES</h3>
-    </div>
-<!--    框框-->
-    <div id="lineBlock">
-      <div class="col-xs-3 col-sm-3 col-md-3">
-        <div class="bigFont">科技创新</div>
-        <div class="smallFont">TECHNOLOGICAL INNOVATION</div>
-      </div>
-      <div class="col-xs-3 col-sm-3 col-md-3">
-        <div class="bigFont">智慧未来</div>
-        <div class="smallFont">SAMRT FUTURE</div>
-      </div>
-      <div class="col-xs-3 col-sm-3 col-md-3">
-        <div class="bigFont">追求卓越</div>
-
-        <div class="smallFont">PURSUIT OF EXCELLENCE</div>
-      </div>
-      <div class="col-xs-3 col-sm-3 col-md-3">
-        <div class="bigFont">团队进取</div>
-        <div class="smallFont">TEAM SPIRIT</div>
-      </div>
-    </div>
-<!--    产品展示-->
-<!--动态-->
-    <!--<div id="productBlock" >
-
-      <div class="proLog">
-        <img src="../assets/img/proLog.png">
-        <div class="proName">
-          <p style="font-size: 25px;letter-spacing: 3px">产品介绍</p>
-          <p style="margin-top: 18px;font-size: 12px;letter-spacing: 1px">INTRODUCTION</p>
-        </div>
-
-
-      </div>
-
-      <div ></div>
-      <div id="customer2" class="container-fuild">
-        <div class="container customer-container">
-          <div class="swiper-container proSamll hidden-xs">
-            <div class="swiper-wrapper">
-              <div
-                class="swiper-slide customer-block"
-                v-for="(item,index) in productList"
-                :key="index"
-              >
-                <div class="customer-logo">
-                  <img class="center-block" :src="item.img" >
-                </div>
-
-                <div class="customer-content1">
-                  <div>{{item.title}}</div>
-                </div>
-&lt;!&ndash;                <div class="customer-content2">{{item.title}}</div>&ndash;&gt;
-              </div>
-            </div>
-            &lt;!&ndash;&lt;!&ndash; 如果需要分页器 &ndash;&gt;
-            <div class="swiper-pagination"></div>
-            &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>&ndash;&gt;
-          </div>
-          <div class="row visible-xs customer-block">
-            <div class="col-xs-12" v-for="(item,index) in customerList" :key="index">
-              <div class="customer-logo">
-                <img class="center-block" :src="item.logo" alt="logo">
-              </div>
-              <div class="customer-yh">
-                <img src="@/assets/img/yinhao.png" alt="引号">
-              </div>
-              <div class="customer-content1">
-                <small>{{item.content}}</small>
-              </div>
-              <div class="customer-content2">
-                <small>{{item.title}}</small>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;
+&lt;!&ndash;        <div class="swiper-button-prev"></div>&ndash;&gt;
+&lt;!&ndash;        <div class="swiper-button-next"></div>&ndash;&gt;
       </div>
     </div>-->
 
-    <div id="productBlock" >
-      <div class="proLog">
-        <img src="../assets/img/proLog.png">
-        <div class="proName">
-          <p style="font-size: 25px;letter-spacing: 3px">产品介绍</p>
-          <p style="margin-top: 18px;font-size: 12px;letter-spacing: 1px">INTRODUCTION</p>
-        </div>
-
-
-      </div>
-
-      <div class="products">
-        <div class="product-ph col-xs-12 col-sm-4 col-md-4">
-          <div class="customer-logo">
-            <img class="center-block" src="../assets/img/pro.png" >
-          </div>
-
-          <div class="customer-content1" style="width: 400px;margin: 0 auto;">
-            <div class="customer-content-jt">产品描述产品描述产品描述产产品描述产品描述产品描述产产品描述产品描述产品描述产产品描述产品描述产品描述产产品描述产品描述产品描述产产品描述产品描述产品描述产产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述产品描述</div>
-          </div>
-        </div>
-        <div class="product-ph col-xs-12 col-sm-4 col-md-4">
-          <div class="customer-logo">
-            <img class="center-block" src="../assets/img/pro1.png" >
-          </div>
-
-          <div class="customer-content1" style="width: 400px;margin: 0 auto;">
-            <div class="customer-content-jt">产品描述</div>
-          </div>
-        </div>
-        <div class="product-ph col-xs-12 col-sm-4 col-md-4">
-          <div class="customer-logo">
-            <img class="center-block" src="../assets/img/pro2.png" >
-          </div>
-
-          <div class="customer-content1" style="width: 400px;margin: 0 auto;">
-            <div class="customer-content-jt">产品描述</div>
-          </div>
-        </div>
-      </div>
+<!--    首页大图-->
+    <div class="top-img">
+      <img src="../assets/img/topImg.png">
     </div>
 
+    <!--    产品介绍-->
+    <div class="contact-us">
+      <img src="../assets/img/introduction.png">
+    </div>
 
+<!--    产品介绍 详细-->
+    <div class="introduce-pro">
+<!--      <img class="introduce-pro-img" src="../assets/img/intPro.png">-->
+      <div class="products-list">
+        <div @click="clickPro(0)" class="products-list-block blue-back col-xs-6 col-md-3">
+          <img  class="pro1" src="../assets/img/pro1.png">
+          <p>智能网络摄像机</p>
+        </div>
+        <div @click="clickPro(1)" class="products-list-block col-xs-6 col-md-3">
+          <img class="pro2" src="../assets/img/pro2.png">
+          <p>智能物联网主机</p>
+        </div>
+        <div @click="clickPro(2)" class="products-list-block col-xs-6 col-md-3">
+          <img class="pro3" src="../assets/img/pro3.png">
+          <p>电力解决方案</p>
+        </div>
+        <div @click="clickPro(3)" class="products-list-block col-xs-6 col-md-3">
+          <img class="pro4"src="../assets/img/pro4.png">
+          <p>智能园区</p>
+        </div>
+      </div>
+      <div class="products-list-mes">
+        <div class="dis-pro">
+          <p class="title-pro">{{ showName }}</p>
+          <p>{{ showMes }} ...</p>
+        <div class="more-pro"></div>
+        </div>
+        <div class="img-pro">
+        </div>
+       </div>
+    </div>
 
+<!--    联系我们-->
+    <div class="contact-us">
+      <img src="../assets/img/callUs.png">
+    </div>
+
+<!--    融合智能科技 . 建设美好生活-->
     <div id="contactUs" class="container-fuild text-center">
-      <div class="container contactUs-container wow slideInUp">
-        <h1>您身边的IT专家</h1>
-        <h3>7x24小时提供出色的IT服务</h3>
-        <button
-          class="btn btn-default btn-sm"
-          onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
-          onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
-        >联系我们</button>
-        <!--<div class="contactUs-contactWay">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>-->
-      </div>
+      <img src="../assets/img/rhzn.png">
     </div>
-    <!--&lt;!&ndash; 客户评价 &ndash;&gt;
-    <div id="customer" class="container-fuild">
-      <div class="container customer-container">
-        <p class="customer-title text-center">客户评价</p>
-        <div class="swiper-container customer-swiper hidden-xs">
-          <div class="swiper-wrapper">
-            <div
-              class="swiper-slide customer-block"
-              v-for="(item,index) in customerList"
-              :key="index"
-            >
-              <div class="customer-logo">
-                <img class="center-block" :src="item.logo" alt="logo">
-              </div>
-              <div class="customer-yh">
-                <img src="@/assets/img/yinhao.png" alt="引号">
-              </div>
-              <div class="customer-content1">
-                <small>{{item.content}}</small>
-              </div>
-              <div class="customer-content2">{{item.title}}</div>
-            </div>
-          </div>
-          &lt;!&ndash; 如果需要导航按钮 &ndash;&gt;
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-        <div class="row visible-xs customer-block">
-          <div class="col-xs-12" v-for="(item,index) in customerList" :key="index">
-            <div class="customer-logo">
-              <img class="center-block" :src="item.logo" alt="logo">
-            </div>
-            <div class="customer-yh">
-              <img src="@/assets/img/yinhao.png" alt="引号">
-            </div>
-            <div class="customer-content1">
-              <small>{{item.content}}</small>
-            </div>
-            <div class="customer-content2">
-              <small>{{item.title}}</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    &lt;!&ndash; 为什么选择我们 &ndash;&gt;
-    <div id="whyChooseUs" class="conatiner-fuild">
-      <div class="container">
-        <div class="whyChooseUs-title text-center">
-          <p>为什么选择我们的服务</p>
-          <p>THE REASON TO CHOOSING US</p>
-        </div>
-        <div class="row">
-          <div
-            class="col-xs-12 col-sm-6 col-md-3 server-wrapper"
-            v-for="(item,index) in serverList"
-            :key="index"
-          >
-            <div
-              class="server-block wow slideInUp"
-              onmouseenter="this.style.color='#28f';this.style.borderColor='#28f'"
-              onmouseleave="this.style.color='#666';this.style.borderColor='#ccc'"
-            >
-              <img class="center-block" :src="item.logo" alt="logo">
-              <p class="text-center">{{item.title}}</p>
-              <div
-                class="text-center"
-                v-html="item.content"
-                onmouseenter="this.style.color='#28f'"
-                onmouseleave="this.style.color='#ccc'"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>-->
+
+
+
+
   </div>
 </template>
 <script>
@@ -252,7 +86,7 @@ export default {
   name: "HomePage",
   data() {
     return {
-      swiperList: [
+      /*swiperList: [
         {
           img: require("@/assets/img/newBanner.png"),
           path: "",
@@ -277,180 +111,49 @@ export default {
           title: '',
           content: '',
         }
-      ],
-      // 产品展示   产品描述改title 一一对应 目前是3页，每页3个
-      /*productList:[
-        {
-          img: require("@/assets/img/pro.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro1.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro2.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro1.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro2.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro1.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
-        {
-          img: require("@/assets/img/pro2.png"),
-          path: "",
-          title: "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content: '',
-        },
       ],*/
-      customerList: [
-        {
-          logo: require("@/assets/img/logo_hp.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_kk.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_toyota.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_kk.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_hp.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_toyota.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_kk.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_hp.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_toyota.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_hp.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_kk.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        },
-        {
-          logo: require("@/assets/img/logo_hp.png"),
-          title:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
-          content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        }
-      ],
-      serverList: [
-        {
-          logo: require("@/assets/img/tel.png"),
-          title: "核心优势1",
-          content: "<p>由专业客服提供人工服务</p>负责疑难问题和故障受理"
-        },
-        {
-          logo: require("@/assets/img/computer.png"),
-          title: "核心优势2",
-          content: "<p>利用远程视频工具，提供协助</p>帮助客户进行调试、解决故障"
-        },
-        {
-          logo: require("@/assets/img/qq.png"),
-          title: "核心优势3",
-          content: "<p>利用企业QQ提供在线解答</p>帮助企业快速准确解决问题和故障"
-        },
-        {
-          logo: require("@/assets/img/skill.png"),
-          title: "核心优势4",
-          content: "<p>由技术支持工程师，负责问题解答</p>需求受理及故障受理"
-        }
-      ]
+
+      showName:'智能网络摄像机',
+      showMes:'系列智能网络摄像机内嵌深度学习算法，可提供精准的人脸侦测、人车分类侦测、越界侦测、区域入侵侦测、轨迹跟踪、进入/离开区域侦测等功能。能够进行行为分析、智能报警、联动报警。支持3D数字降噪、强光抑制、背光补偿、电子防抖等，使得图像和音频具有较好的质量。在超高分辨率下可输出实时图像',
+
+      names:['智能网络摄像机','智能物联网主机','电力解决方案','智能园区'],
+      mes:['系列智能网络摄像机内嵌深度学习算法，可提供精准的人脸侦测、人车分类侦测、越界侦测、区域入侵侦测、轨迹跟踪、进入/离开区域侦测等功能。能够进行行为分析、智能报警、联动报警。支持3D数字降噪、强光抑制、背光补偿、电子防抖等，使得图像和音频具有较好的质量。在超高分辨率下可输出实时图像',
+            '智能物联网主机高度集成化模块化智能数据采集产品，具备视频采集、视频智能分析、视频存储、物联数据采集、单向安全传输、数据过滤、数据加密、数据分析预警等丰富功能。主机可海量接入企业自动化控制系统、安全仪表系统等控制系统的安全参数和报警数据，包括液位、温度、压力、气体浓度等安全参数',
+            '基于融道自研的融+算法平台，通过多层次体系构建，深度赋能电力行业输变配等各个方向。在输电领域，汇聚融合输电专业相关业务系统数据，实现设备运行、通道环境、作业现场、灾害预警等输电全业务全景数据可视化展示及智能联动决策分析，支撑输电运检人员对设备和通道运行状况进行监测和跟踪，精确掌握设备实时状态',
+            '运用物联网、车联网、AI、大数据、移动互联等现代技术，开发智慧园区解决方案，助力各类园区构建统一的信息化基础架构体系，搭建园区统一接入标准，构建智慧化的园区系统，从而为提升园区管理者的服务水平，提高工作效率提供强力支撑。系统全面集成各类设备、传感器，依托智慧园区平台强大的通讯能力'],
+
+
     };
+  },
+  methods:{
+    clickPro(index){
+      console.log("index: ",index)
+      var aa = $('.products-list-block')[index];
+      var bb = $('.img-pro')[0];
+      $(aa).addClass("blue-back").siblings('div').removeClass("blue-back");
+      $(bb).addClass("img-pro"+index);
+
+      var nums = [0,1,2,3];
+      var unmIndex = index;
+
+      $.each(nums,function (index,val){
+        if(val == unmIndex){
+          console.log(val)
+        }else{
+          $(bb).removeClass("img-pro"+val);
+        }
+      })
+      this.showName = this.names[index];
+      this.showMes = this.mes[index];
+    }
   },
   mounted() {
     /* banner-swiper */
-    new Swiper(".banner-swiper", {
+/*    new Swiper(".banner-swiper", {
       loop: true, // 循环模式选项
       effect: 'fade',
       speed:2000,
+      // pagination:'custom',
       //自动播放
       autoplay: {
         delay: 3000,
@@ -460,7 +163,8 @@ export default {
       // 如果需要分页器
       pagination: {
         el: ".swiper-pagination",
-        clickable: true
+        clickable: true,
+        type:'fraction'
       },
       // 如果需要前进后退按钮
       navigation: {
@@ -473,54 +177,8 @@ export default {
       },
       observer: true, //修改swiper自己或子元素时，自动初始化swiper
       observeParents: true //修改swiper的父元素时，自动初始化swiper
-    });
+    });*/
 
-/*// 产品展示
-    var swiper = new Swiper('.proSamll',
-      {
-        loop: true, // 循环模式选项
-        slidesPerView: 3,
-        // slidesPerGroup: 3,
-        spaceBetween: 110,
-        //自动播放
-        autoplay: {
-          delay: 6000,
-          stopOnLastSlide: false,
-          disableOnInteraction: false
-        },
-       /!* // 如果需要分页器
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-
-        },*!/
-        // 如果需要前进后退按钮
-        /!*navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },*!/
-        observer: true, //修改swiper自己或子元素时，自动初始化swiper
-        observeParents: true //修改swiper的父元素时，自动初始化swiper
-      });*/
-    /* customer-swiper */
-    new Swiper(".customer-swiper", {
-      loop: true, // 循环模式选项
-      slidesPerView: 3,
-      slidesPerGroup: 3,
-      //自动播放
-      autoplay: {
-        delay: 3000,
-        stopOnLastSlide: false,
-        disableOnInteraction: false
-      },
-      // 如果需要前进后退按钮
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      },
-      observer: true, //修改swiper自己或子元素时，自动初始化swiper
-      observeParents: true //修改swiper的父元素时，自动初始化swiper
-    });
     /* wowjs动画 */
     var wow = new WOW({
       boxClass: 'wow',
@@ -537,6 +195,7 @@ export default {
 /* 整体盒子 */
 #HomePage {
   width: 100%;
+  /*background-color: #ababab26;*/
 }
 
 /* 轮播图 */
@@ -596,11 +255,15 @@ export default {
 
 /* 您身边的IT专家 */
 #contactUs {
-  color: #fff;
-  height: 400px;
-  background: url("../assets/img/contact_us_bg.jpg") 0 0 no-repeat;
+  width:100%;
+  /*height: 500px;*/
+  /*background: url("../assets/img/contact_us_bg.jpg") 0 0 no-repeat;*/
+  /*background: url("../assets/img/rhzn.png") 0 0 no-repeat;
   background-size: 100% 100%;
-  transition: all ease 0.6s;
+  transition: all ease 0.6s;*/
+}
+#contactUs img{
+  width:100%;
 }
 #contactUs .contactUs-container {
   padding-top: 50px;
@@ -694,6 +357,13 @@ export default {
 
 /*-----------------------------*/
 /*添加模块*/
+
+.top-img{
+  width:100%;
+}
+.top-img img{
+  width:100%;
+}
 #fontShow{
   height:140px;
   padding:1%;
@@ -761,6 +431,145 @@ export default {
   border-radius: 0 0 10px 10px;
   /*border-bottom: 1px solid #0ce9f1;*/
 }
+/*联系我们*/
+.contact-us{
+  width:100%;
+  /*height:104px;*/
+  /*background: #761c19;*/
+  /*background: url("../assets/img/callUs.png") 0 0 no-repeat;*/
+  /*display: flex;*/
+  /*position: relative;*/
+  margin: 150px 0;
+}
+.contact-us img{
+  width: 100%;
+}
+/*产品*/
+.introduce-pro{
+  width:100%;
+  /*height:910px;*/
+  margin-top: 30px;
+  /*position: relative;*/
+  /*display: flex;*/
+  background-image: url("../assets/img/intPro.png");
+  background-repeat: no-repeat;
+  background-position: 0 0 ;
+  background-size: 100%;
+  padding:0 15%;
+}
+.introduce-pro-img{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 11;
+}
+.products-list{
+  width:100%;
+  height:450px;
+  background: #7698bb00;
+}
+
+.products-list img{
+  margin: 150px auto;
+}
+.products-list-block{
+  height: 100%;
+  border: 1px solid #ffffff36;
+  position: relative;
+  cursor: pointer;
+}
+.blue-back{
+  background-image: url("../assets/img/blueBack.png");
+}
+.products-list-block p{
+  width: 92%;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  font-size: 24px;
+  bottom:8%;
+
+}
+
+.pro1{
+  width:230px;
+}
+.pro2{
+  width:216px;
+  margin-top: 190px!important;
+}
+.pro3{
+  width:257px;
+  margin-top: 165px!important;
+}
+.pro4{
+  width:247px;
+  margin-top: 128px!important;
+}
+.products-list-mes{
+  width:100%;
+  background: #ffffff;
+  height: 450px;
+  /*border: 1px solid #0ce9f1;*/
+  padding:75px 50px;
+  display: flex;
+}
+.dis-pro{
+  float: left;
+  width:75%;
+  height:100%;
+  font-size: 22px;
+  font-weight: 300;
+  color: #5A5858;
+  line-height: 44px;
+  position: relative;
+
+}
+.title-pro{
+  color: #0646A7;
+  font-size: 36px;
+  font-weight: 600;
+}
+.more-pro{
+  position: absolute;
+  bottom: -30px;
+  left:2px;
+  margin-top: 30px;
+  width:150px;
+  height:50px;
+  background-image: url("../assets/img/morePro.png");
+}
+.img-pro{
+  margin:62px 30px;
+  width:268px;
+  height: 164px;
+  background: url("../assets/img/pro1.png") no-repeat;
+  /*border: 1px solid #0ce9f1;*/
+}
+.img-pro0{
+  background: url("../assets/img/pro1.png") no-repeat;
+}
+.img-pro1{
+  background: url("../assets/img/pro2.png") no-repeat;
+}
+.img-pro2{
+  background: url("../assets/img/pro3.png") no-repeat;
+}
+.img-pro3{
+  background: url("../assets/img/pro4.png") no-repeat;
+}
+
+/*融合智能科技*/
+.font-mes{
+  width: 340px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 60px auto;
+  border: 1px solid #ffffff;
+  font-size: 18px;
+}
 
 /* 客户评价 */
 #productBlock{
@@ -775,8 +584,10 @@ export default {
 }
 .proLog{
   display: flex;
-  margin-top: 10px ;
-  margin-bottom: 10px ;
+  margin:10px auto;
+  width:185px;
+  /*margin-top: 10px ;*/
+  /*margin-bottom: 10px ;*/
 }
 .proLog img{
   width: 48px;
@@ -1000,6 +811,8 @@ export default {
   }
   .proLog{
     display: flex;
+    margin:10px auto;
+    width:185px;
     /*margin-top: 10px ;*/
     /*margin-bottom: 10px ;*/
     width: 210px;
@@ -1183,6 +996,8 @@ export default {
     /*background-color: aqua;*/
   }
   .proLog{
+    margin:10px auto;
+    width:185px;
     display: flex;
     margin-top: 10px ;
     margin-bottom: 10px ;

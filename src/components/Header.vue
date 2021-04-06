@@ -31,7 +31,7 @@
         >
           <router-link :to="item.path">
             {{item.name}}
-            <span v-if="item.children.length>0" class="glyphicon glyphicon-menu-down"></span>
+<!--            <span v-if="item.children.length>0" class="glyphicon glyphicon-menu-down"></span>-->
             <i class="underline"></i>
           </router-link>
           <dl v-if="item.children.length>0">
@@ -93,7 +93,7 @@ export default {
           children: []
         },
         {
-          name: "主要产品",
+          name: "产品中心",
           path: "/software",
           children: [
             {
@@ -106,31 +106,31 @@ export default {
             }
           ]
         },
-        {
+        /*{
           name: "相关服务",
           path: "/service",
           children: []
-        },
+        },*/
         // {
         //   name: "新闻动态",
         //   path: "/newsinformation",
         //   children: []
         // },
         {
-          name: "公司介绍",
+          name: "关于融道",
           path: "/companyintroduction",
           children: []
         },
         {
-          name: "招聘岗位",
+          name: "加入我们",
           path: "/jobchance",
           children: []
         },
-        {
+        /*{
           name: "联系我们",
           path: "/contactus",
           children: []
-        }
+        }*/
       ]
     };
   },
@@ -203,12 +203,13 @@ export default {
 /* 导航栏 每个导航 */
 #header .header-nav .header-nav-wrapper > li {
   float: left;
-  margin: 0 15px;
+  margin: 0 65px;
+  /*margin: 0 15px;*/
   position: relative;
 }
 /* 导航栏 每个导航下面的 a 链接 */
 #header .header-nav .header-nav-wrapper > li > a {
-  color: #000;
+  color: #6f6f6f;
   font-size: 15px;
   font-weight: bold;
   padding: 15px 0;

@@ -1,4 +1,4 @@
-<template>
+row CompanyIntroduction-container<template>
     <div id="NewsInformation">
         <div class="container">
             <div class="container text-center">
